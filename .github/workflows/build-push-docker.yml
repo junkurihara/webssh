@@ -9,7 +9,7 @@ jobs:
   build_and_push:
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: headscale
+      IMAGE_NAME: webssh
       GHCR: ghcr.io
       GHCR_IMAGE_NAME: ${{ github.repository }}
 
